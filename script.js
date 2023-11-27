@@ -5,9 +5,11 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Lmao 💀";
+  gif.style.display = "none";
   gif.src =
     "giphy1.gif"
+  question.innerHTML = "Lmao 💀";
+  gif.style.display = "block";
   yesBtn.style. display = 'none';
   noBtn.style. display = 'none';
 });
