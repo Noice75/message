@@ -7,7 +7,7 @@ const noBtn = document.querySelector(".no-btn");
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Lmao 💀";
   gif.src =
-    "https://media.giphy.com/media/3og0IRHmCwVa6UXyU0/giphy.gif"
+    "giphy1.gif"
   yesBtn.style. display = 'none';
   noBtn.style. display = 'none';
 });
